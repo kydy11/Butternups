@@ -1,0 +1,23 @@
+{
+  "name": "butternups",
+  "version": "0.0.0",
+  "description": "a company web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch main.scss -o styles --output-style compressed"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kydy11/Butternups.git"
+  },
+  "author": "Kyler Day",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kydy11/Butternups/issues"
+  },
+  "homepage": "https://github.com/kydy11/Butternups#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
