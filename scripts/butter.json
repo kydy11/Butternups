@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Raspberry",
+        "price": "$10.0",
+        "imgSrc": "images/raspberry.jpg"
+  
+    },
+    {
+        "name": "Blackberry",
+        "price": "$10.0",
+        "imgSrc": "images/blackberry.jpg"
+    
+    },
+    {
+        "name": "Strawberry",
+        "price": "$10.0",
+        "imgSrc": "images/strawberry.jpg"
+
+    },
+    {
+        "name": "Cherry",
+        "price": "$10.0",
+        "imgSrc": "images/cherry.jpg"
+
+    },
+    {
+        "name": "Cinnamon Honey",
+        "price": "$10.0",
+        "imgSrc": "images/cinhoney.jpg"
+    
+    },
+    {
+        "name": "Spiced Peach",
+        "price": "$10.0",
+        "imgSrc": "images/sppeach.jpg"
+
+    },
+    {
+        "name": "Chocolete",
+        "price": "$10.0",
+        "imgSrc": "images/chocolete.jpg"
+
+    }
+  ]
