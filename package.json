@@ -21,10 +21,10 @@
   "homepage": "https://github.com/kydy11/Butternups#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "node-sass": "^4.12.0",
     "serverless-http": "^2.3.0"
   },
   "devDependencies": {
+    "node-sass": "^4.12.0",
     "nodemon": "^1.19.3"
   }
 }
