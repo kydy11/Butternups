@@ -20,25 +20,25 @@
     {
         "name": "Cherry",
         "price": "$10.0",
-        "imgSrc": "images/cherry.jpg"
+        "imgSrc": "images/CherryPie.jpg"
 
     },
     {
         "name": "Cinnamon Honey",
         "price": "$10.0",
-        "imgSrc": "images/cinhoney.jpg"
+        "imgSrc": "images/CinnamonHoney.jpg"
     
     },
     {
         "name": "Spiced Peach",
         "price": "$10.0",
-        "imgSrc": "images/sppeach.jpg"
+        "imgSrc": "images/SpicedPeach.jpg"
 
     },
     {
         "name": "Chocolete",
         "price": "$10.0",
-        "imgSrc": "images/chocolete.jpg"
+        "imgSrc": "images/Chocolate.jpg"
 
     }
   ]
