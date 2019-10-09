@@ -59,4 +59,18 @@ nav{
     border-color: $green;
   }
 
+  #contactForm{
+    text-align: center;
+    transform: scale(2) translate(0,30%);
+  }
 
+  #submitBt{
+    font-family: $fontMain;
+    background-color: #a5c9c0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  input, textarea{
+    border: 1px solid #abb3b1;
+  }

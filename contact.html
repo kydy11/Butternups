@@ -11,24 +11,18 @@
     <h1>Butternups</h1>
     <nav id="site-nav"></nav>
 
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" id="contactForm">
         <p>
-          <label>Your Name: <input type="text" name="name" /></label>   
+          <label>Your Name:<br> <input type="text" name="name" /></label>   
         </p>
         <p>
-          <label>Your Email: <input type="email" name="email" /></label>
+          <label>Your Email:<br> <input type="email" name="email" /></label>
         </p>
         <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
+          <label>Message:<br> <textarea name="message"></textarea></label>
         </p>
         <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
+          <button type="submit" id="submitBt">Send</button>
         </p>
       </form>
     
