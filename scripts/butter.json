@@ -1,43 +1,43 @@
 [
     {
         "name": "Raspberry",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/raspberry.jpg"
   
     },
     {
         "name": "Blackberry",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/blackberry.jpg"
     
     },
     {
         "name": "Strawberry",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/strawberry.jpg"
 
     },
     {
         "name": "Cherry",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/CherryPie.jpg"
 
     },
     {
         "name": "Cinnamon Honey",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/CinnamonHoney.jpg"
     
     },
     {
         "name": "Spiced Peach",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/SpicedPeach.jpg"
 
     },
     {
         "name": "Chocolete",
-        "price": "$10.0",
+        "price": "$10 /lb",
         "imgSrc": "images/Chocolate.jpg"
 
     }

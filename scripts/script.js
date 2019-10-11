@@ -24,14 +24,39 @@ $.getJSON( "scripts/butter.json", function( json ) {
         `)
       }
     }
-    // console.log(window.location.pathname)
+
     if (window.location.pathname == "/") {
-      let rand =Math.random() *json.length;
+      let rand = Math.floor(Math.random() *json.length);
       $("#home-butter").append(`
-        <div>
-          <img src=${json[rand].imgSrc} width="80%">
-          <p>${json[rand].name}</p>
-        </div>
+        
+        <p>${json[rand].name}</p>
+        <img src=${json[rand].imgSrc} width="80%">
+        
+      `)
+    }
+   });
+
+//unfinished
+   $.getJSON( "scripts/reviews.json", function( json ) {
+    if (window.location.pathname == "/butter.html") {
+      console.log( json );
+      for (let i=0; i< json.length; i++){
+        $("#site-content-reviews").append(`
+          <li>
+            <p>${json[i].name}</p>
+            <p>${json[i].price}</p>
+          </li>
+        `)
+      }
+    }
+
+    if (window.location.pathname == "/") {
+      let rand = Math.floor(Math.random() *json.length);
+      $("#home-butter").append(`
+        
+        <p>${json[rand].name}</p>
+        <p>${json[i].price}</p>
+        
       `)
     }
    });

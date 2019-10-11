@@ -74,3 +74,70 @@ nav{
   input, textarea{
     border: 1px solid #abb3b1;
   }
+
+  #flaver-spot{
+    transform: scale(.75);
+    display: flex;
+    margin: 10%;
+    font-size: 20pt;
+    flex-direction: row;
+    align-items: center;
+    background-color: $yellow;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+    #home-butter-text{
+      flex: 1.5;
+    }
+    div{
+      flex: 1;
+      padding: 20px;
+      p{
+        font-size: 15pt;
+      }
+    }
+  }
+
+  #home-about{
+    transform: scale(.75);
+    text-decoration: none;
+    font-size: 20pt;
+    p{
+      transform: scale(.75);
+      margin: 10%;
+      padding: 20px;
+      background-color: $yellow;
+      color: black;
+      text-align: center;
+    }
+  }
+
+  #home-contact{
+    transform: scale(.75);
+    text-decoration: none;
+    font-size: 20pt;
+    p{
+      transform: scale(.75);
+      margin: 10%;
+      padding: 20px;
+      background-color: $yellow;
+      color: black;
+      text-align: center;
+    }
+  }
+
+  #home-review{
+    transform: scale(.75);
+    text-decoration: none;
+    font-size: 20pt;
+    p{
+      transform: scale(.75);
+      margin: 10%;
+      padding: 20px;
+      background-color: $yellow;
+      color: black;
+      text-align: center;
+    }
+    
+  }
