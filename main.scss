@@ -127,17 +127,28 @@ nav{
     }
   }
 
-  #home-review{
+  #home-review, .review{
     transform: scale(.75);
+    margin: 10%;
+    font-size: 30pt;
+    background-color: $yellow;
     text-decoration: none;
-    font-size: 20pt;
+    color: black;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex: 3;
     p{
-      transform: scale(.75);
-      margin: 10%;
-      padding: 20px;
-      background-color: $yellow;
-      color: black;
-      text-align: center;
+      padding-left: 10%;
+      margin:5%;
+    }
+    .reviewer{
+      flex:1;
+      font-size: 20pt;
     }
     
+  }
+  #site-content-reviews{
+    list-style: none;
   }

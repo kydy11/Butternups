@@ -36,15 +36,17 @@ $.getJSON( "scripts/butter.json", function( json ) {
     }
    });
 
-//unfinished
+
    $.getJSON( "scripts/reviews.json", function( json ) {
-    if (window.location.pathname == "/butter.html") {
+    if (window.location.pathname == "/reviews.html") {
       console.log( json );
       for (let i=0; i< json.length; i++){
         $("#site-content-reviews").append(`
           <li>
-            <p>${json[i].name}</p>
-            <p>${json[i].price}</p>
+            <div class="review">
+              <p>"${json[i].review}"</p>
+              <p class="reviewer"> ${json[i].name}</p>
+            </div>
           </li>
         `)
       }
@@ -52,11 +54,9 @@ $.getJSON( "scripts/butter.json", function( json ) {
 
     if (window.location.pathname == "/") {
       let rand = Math.floor(Math.random() *json.length);
-      $("#home-butter").append(`
-        
-        <p>${json[rand].name}</p>
-        <p>${json[i].price}</p>
-        
+      $("#home-review").append(`
+          <p>"${json[rand].review}"</p>
+          <p class="reviewer">${json[rand].name}</p>
       `)
     }
    });
